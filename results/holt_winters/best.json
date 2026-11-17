@@ -1,0 +1,24 @@
+{
+  "family": "holt_winters",
+  "params": {
+    "damped": false,
+    "seasonal": "mul",
+    "trend": "add",
+    "window": 365
+  },
+  "auto_arima_selected": null,
+  "n_configs_tried": 240,
+  "cv": {
+    "ME": 1058051.1036722674,
+    "MAE": 1628631.3716306528,
+    "RMSE": 2521489.9500224316,
+    "MAPE": 16.009386573888026
+  },
+  "test": {
+    "ME": 124174.25104790906,
+    "MAE": 1666568.98777966,
+    "RMSE": 2712229.569593292,
+    "MAPE": 18.43154777335075,
+    "coverage95": 0.9642857142857143
+  }
+}
